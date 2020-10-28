@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<body>
+        <section>
+            <h2 class="shoppingCartHeader">Shopping Cart</h2>
+            <section class="tableWrapper">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td class="grey fontBold">Product Name</td>
+                        <td class="grey fontBold">Unit Price</td>
+                        <td class="grey fontBold">Qty</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="clearButton">
+                                <img src="images/x-img.png" alt="x-button"/>
+                            </button>
+                        </td>
+                        <td>
+                            <img src="images/headphones.png" alt="headphones" />
+                        </td>
+                        <td class="grey">
+                            Headphones
+                        </td>
+                        <td class="grey">
+                            $11.90
+                        </td>
+                        <td class="grey">
+                            <section class="productCount">
+                                <button class="count">-</button>
+                                <input class="count" type="number">
+                                <button class="count" >+</button>
+                                <button class="clearButton">
+                                    <img src="images/edit-img.png" alt="editButton" />
+                                </button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            <section class="shoppingCartUpdate">
+                <button class="blackStylingButton fontBold">Update Shopping Cart</button>
+            </section>
+            </section>
+        </section>
+        <aside class="price">
+            <button class="blackStylingButton">Proceed to checkout</button>
+            <section class="shipping greyBox">
+                <p>SHIPPING</p>
+                <p>$23.80</p>
+            </section>
+            <section class="cartTotals">
+                <div class="cartTotalsHeader greyBox">
+                    <h3>CART TOTALS</h3>
+                </div>
+                <div class="cartTotalsContent greyBox">
+                    <div class="subtotal fontBold">
+                        <p class="grey">Subtotal</p>
+                        <p>$23.80</p>
+                    </div>
+                    <div class="grandTotal fontBold">
+                        <p class="grey">Grand Total</p>
+                        <p>$23.80</p>
+                    </div>
+                    <button class="blackStylingButton checkoutButton fontBold padding15">Proceed to checkout</button>
+                </div>
+            </section>
+        </aside>
+</body>
+</html>
