@@ -1,0 +1,15 @@
+@import '../../styles/variables.module.scss';
+.asideWrapper {
+  border: 1px solid $headers;
+  font-weight: bold;
+  background: $secondary;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  text-transform: uppercase;
+}
+
+.asideWrapperWithMargin {
+  margin: 15px 0 15px 0;
+}

@@ -1,0 +1,18 @@
+.productCount{
+  display: flex;
+  flex-direction: row;
+}
+
+.productCount > * {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

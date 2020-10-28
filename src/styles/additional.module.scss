@@ -1,0 +1,21 @@
+@import './variables.module.scss';
+.primaryFontColor {
+  color: $primary
+}
+
+.fontBold {
+  font-weight: $bold;
+}
+
+.clearButton {
+  border: none;
+  background: transparent;
+}
+
+.font15 {
+  font-size: 15px;
+}
+
+.font18 {
+  font-size: 18px;
+}

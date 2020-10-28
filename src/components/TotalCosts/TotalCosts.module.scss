@@ -1,0 +1,28 @@
+@import '../../styles/variables.module.scss';
+.totalCostsWrapper {
+    display: flex;
+    border: 1px solid $primary;
+border-top: none;
+    flex-direction: column;
+    background-color: $quaternary;
+}
+
+.withoutBorderLR > * {
+    border-left: none;
+    border-right: none;
+}
+
+.withoutBorderBottom > div {
+    font-size: 18px !important;
+    border-bottom: none;
+}
+
+.width70 {
+    display: flex;
+}
+.width70 > * {
+    align-self: center;
+    padding: 10px 20%;
+    margin: 30px auto 20px auto;
+    font-weight: $bold;
+}

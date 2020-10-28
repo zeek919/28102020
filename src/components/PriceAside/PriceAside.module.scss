@@ -1,0 +1,37 @@
+@import '../../styles/variables.module.scss';
+.priceWrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.flexShipping {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+
+.toRight {
+  width: 50%;
+  align-self: flex-end;
+  margin: 20px 0 0 0;
+}
+
+.toRight > button {
+  padding: 10px;
+}
+
+.submittedWrapper {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: $font18;
+  width: auto;
+  margin-top: 15px;
+  height: 30vh;
+  border: 1px solid $quinary;
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": 0,
+    "react/no-typos": 0,
+    "max-len": "off",
+    "react/jsx-indent\n": "off",
+    "no-return-assign": "off"
+  },
+  "plugins": ["prettier"]
+}
